@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.197" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Find out the U de A official page across the Google search Eng." name="Search the udea official page across the Google search Eng." time="13.874">
+<system-out><![CDATA[
+Given I am in the google page...............................................passed
+When I search U de A word in the Google search eng..........................passed
+Then I can see the official udea link.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
