@@ -7,7 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 
-        features = "src/test/resources/features/inicio_seccion.feature",
+        features = {
+                "src/test/resources/features"
+        },
         glue = "co.com.udea.fabricaescuela.moduloautenticacionautorizacion.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = {"summary",
@@ -15,7 +17,8 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-report.html",
                 "json:target/cucumber.json",
                 "junit:target/cucumber.xml"
-        }
-)
+        },
+        tags = "@Orden1 or @Orden2"
+        )
 public class FindOutUdeAPageRunner {
 }
