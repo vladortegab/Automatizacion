@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="14.197" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Find out the U de A official page across the Google search Eng." name="Search the udea official page across the Google search Eng." time="13.874">
+<testsuite name="Cucumber" time="3.725" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Iniciar Sesion con Credenciales Validas." name="Iniciar Sesion en la Aplicacion Web." time="3.424">
+<failure/>
 <system-out><![CDATA[
-Given I am in the google page...............................................passed
-When I search U de A word in the Google search eng..........................passed
-Then I can see the official udea link.......................................passed
+Given que estoy en la pagina de inicio de sesion............................passed
+When ingreso mi correo electronico y contrasena.............................passed
+When hago clic en el boton Iniciar Sesion...................................passed
+Then deberia ver un indicador de carga mientras se verifican mis credenciales.passed
+Then deberia ser redirigido a la pagina principal de la aplicacion..........undefined
 ]]></system-out>
 </testcase>
 </testsuite>

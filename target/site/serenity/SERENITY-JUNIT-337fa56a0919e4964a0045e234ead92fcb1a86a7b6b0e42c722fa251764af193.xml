@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Find out the U de A official page across the Google search Eng." skipped="0" tests="1" time="4.9" timestamp="2024-05-23 03:14:23"><testcase name="Search the udea official page across the Google search Eng."/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Find out the U de A official page across the Google search Eng." skipped="0" tests="1" time="2.22" timestamp="2024-06-01 06:19:45"><testcase name="Search the udea official page across the Google search Eng."><error message="Unable to find element with locator By.xpath: //a[contains(@class,'flex items-center')]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">Unable to find element with locator By.xpath: //a[contains(@class,'flex items-center')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: driver.version: RemoteWebDriver</error><system-err>Unable to find element with locator By.xpath: //a[contains(@class,'flex items-center')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3.1'
+Driver info: driver.version: RemoteWebDriver&#13;
+co.com.udea.fabricaescuela.moduloautenticacionautorizacion.questions.Validation.answeredBy(Validation.java:16)&#13;
+co.com.udea.fabricaescuela.moduloautenticacionautorizacion.questions.Validation.answeredBy(Validation.java:9)&#13;
+co.com.udea.fabricaescuela.moduloautenticacionautorizacion.stepdefinitions.InicioSeccionStepDefinition.iCanSeeTheOfficialUdeaLink(InicioSeccionStepDefinition.java:50)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
