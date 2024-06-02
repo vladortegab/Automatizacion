@@ -21,7 +21,6 @@ import org.slf4j.LoggerFactory;
 
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class InicioSeccionStepDefinition {
     private static final Logger logger = LoggerFactory.getLogger(InicioSeccionStepDefinition.class);

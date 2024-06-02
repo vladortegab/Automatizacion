@@ -15,7 +15,6 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.questions.WebElementQuestion;
-import net.serenitybdd.screenplay.questions.Visibility;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 

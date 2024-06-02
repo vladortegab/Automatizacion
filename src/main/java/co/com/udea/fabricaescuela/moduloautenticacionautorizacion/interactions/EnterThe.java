@@ -9,6 +9,7 @@ import org.openqa.selenium.Keys;
 
 import static co.com.udea.fabricaescuela.moduloautenticacionautorizacion.userinterfaces.LoginPage.*;
 
+
 public class EnterThe implements Interaction {
     private final String email;
     private final String password;
@@ -27,6 +28,7 @@ public class EnterThe implements Interaction {
             Click.on(MARK_TERMINES_AND_CONDITION_INICIO_SESION),
             Click.on(MARK_AUTORIZED_POLITICS_AND_PRIVACE_INICIO_SESION),
             Click.on(LINK_BOTON_INICIAR_SESION_HOMEPAGE)
+            
 
         );
     }

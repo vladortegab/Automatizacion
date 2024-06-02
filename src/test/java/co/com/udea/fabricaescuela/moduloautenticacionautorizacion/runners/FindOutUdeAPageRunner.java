@@ -18,7 +18,9 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",
                 "junit:target/cucumber.xml"
         },
-        tags = "@Orden1 or @Orden2"
+        //tags = "@Orden1 or @Orden2"
+        //Sprint 1
+        tags = "@Orden4"
         )
 public class FindOutUdeAPageRunner {
 }
