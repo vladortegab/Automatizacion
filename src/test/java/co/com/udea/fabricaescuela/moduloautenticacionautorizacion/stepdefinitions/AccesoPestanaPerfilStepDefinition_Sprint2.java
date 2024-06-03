@@ -24,10 +24,10 @@ import org.slf4j.LoggerFactory;
 
 import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
 
-public class AccesoPestanaPerfilStepDefinition {
+public class AccesoPestanaPerfilStepDefinition_Sprint2 {
     public final Actor usuario = Actor.named("usuario");
 
-    private static final Logger logger = LoggerFactory.getLogger(AccesoPestanaPerfilStepDefinition.class);
+    private static final Logger logger = LoggerFactory.getLogger(AccesoPestanaPerfilStepDefinition_Sprint2.class);
 
     @Managed(driver = "chrome")
     public WebDriver theDriver;
@@ -36,7 +36,7 @@ public class AccesoPestanaPerfilStepDefinition {
     public void setup() {
         setTheStage(new OnlineCast());
         usuario.can(BrowseTheWeb.with(theDriver));
-        logger.info("Accediendo a la página");
+        logger.info("Feature: Acceso a la Pestana de Perfil");
     }
 
     

@@ -22,8 +22,8 @@ import org.slf4j.LoggerFactory;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
-public class InicioSeccionStepDefinition {
-    private static final Logger logger = LoggerFactory.getLogger(InicioSeccionStepDefinition.class);
+public class InicioSeccionStepDefinition_Sprint2 {
+    private static final Logger logger = LoggerFactory.getLogger(InicioSeccionStepDefinition_Sprint2.class);
 
     @Managed(driver = "chrome")
     public WebDriver theDriver;
