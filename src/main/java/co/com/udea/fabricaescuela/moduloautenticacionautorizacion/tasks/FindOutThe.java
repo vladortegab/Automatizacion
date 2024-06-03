@@ -13,6 +13,7 @@ public class FindOutThe implements Task {
         this.email = email;
         this.password = password;
     }
+    
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -22,4 +23,5 @@ public class FindOutThe implements Task {
     public static FindOutThe credentials(String email, String password) {
         return Tasks.instrumented(FindOutThe.class, email, password);
     }
+ 
 }

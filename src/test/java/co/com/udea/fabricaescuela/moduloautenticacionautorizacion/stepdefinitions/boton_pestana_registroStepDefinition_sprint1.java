@@ -21,8 +21,8 @@ import org.slf4j.LoggerFactory;
 
 import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
 
-public class boton_pestana_registro_sprint1 {
-    private static final Logger logger = LoggerFactory.getLogger(boton_pestana_registro_sprint1.class);
+public class boton_pestana_registroStepDefinition_sprint1 {
+    private static final Logger logger = LoggerFactory.getLogger(boton_pestana_registroStepDefinition_sprint1.class);
 
     @Managed(driver = "chrome")
     public WebDriver theDriver;
