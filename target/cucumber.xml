@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.385" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Opciones de Inicio de Sesion con Google y Facebook" name="Iniciar Sesion con Google" time="3.103">
+<system-out><![CDATA[
+Given que estoy en la pagina de inicio de sesion Orden8.....................passed
+When hago clic en el boton de inicio de sesion con Google...................passed
+Then debo ser redirigido automaticamente al flujo de autenticacion de Google.passed
+And despues de completar el flujo de autenticacion en Google................passed
+Then deberia de redirigirme de vuelta a la pagina de inicio de sesion de manera automatica.passed
+]]></system-out>
+</testcase>
+</testsuite>
