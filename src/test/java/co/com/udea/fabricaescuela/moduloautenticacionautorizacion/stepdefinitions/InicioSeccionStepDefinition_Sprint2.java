@@ -36,7 +36,7 @@ public class InicioSeccionStepDefinition_Sprint2 {
         usuario.can(BrowseTheWeb.with(theDriver));
         ThucydidesWebDriverSupport.getDriver().manage().window().maximize();
 
-        logger.info("Accediendo a la pagina de inicio de sesión");
+        logger.info("Feature: Iniciar Sesion con Credenciales Validas.");
     }
 
     @Given("que estoy en la pagina de inicio de sesion")
