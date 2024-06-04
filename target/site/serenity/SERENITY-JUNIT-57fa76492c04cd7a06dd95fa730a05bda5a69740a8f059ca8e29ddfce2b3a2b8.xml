@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Iniciar Sesion con Credenciales Validas." skipped="0" tests="1" time="0.48" timestamp="2024-06-02 04:59:58"><testcase name="Iniciar Sesion en la Aplicacion Web."><error message="The actor usuario does not have the ability to browse the web" type="net.serenitybdd.screenplay.exceptions.ActorCannotBrowseTheWebException">The actor usuario does not have the ability to browse the web</error><system-err>The actor usuario does not have the ability to browse the web&#13;
+co.com.udea.fabricaescuela.moduloautenticacionautorizacion.tasks.OpenThe.performAs(OpenThe.java:18)&#13;
+co.com.udea.fabricaescuela.moduloautenticacionautorizacion.stepdefinitions.InicioSeccionStepDefinition.queEstoyEnLaPaginaDeInicioDeSesion(InicioSeccionStepDefinition.java:38)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

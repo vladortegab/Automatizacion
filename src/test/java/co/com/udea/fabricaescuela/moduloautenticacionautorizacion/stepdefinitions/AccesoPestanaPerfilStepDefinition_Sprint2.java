@@ -40,8 +40,8 @@ public class AccesoPestanaPerfilStepDefinition_Sprint2 {
     }
 
     
-     @Given("que el usuario esta autenticado en la plataforma")
-     public void queElUsuarioEstaAutenticadoEnLaPlataforma() {
+     @Given("que el usuario esta autenticado en la plataforma Orden2")
+     public void queElUsuarioEstaAutenticadoEnLaPlataformaOrden2() {
       usuario.attemptsTo(OpenThe.browser(new LoginPage()));
       if
       (!WebElementQuestion.the(LoginPage.LINK_PERFIL_SESION).answeredBy(usuario).

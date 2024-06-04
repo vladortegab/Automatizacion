@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Botón de Registro en la Barra de Navegación" skipped="0" tests="1" time="2.58" timestamp="2024-06-02 07:14:26"><testcase name="Usuario no registrado accede al boton de registro"/></testsuite>
