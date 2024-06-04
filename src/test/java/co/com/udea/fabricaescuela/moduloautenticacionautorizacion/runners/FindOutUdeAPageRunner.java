@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         },
         //tags = "@Orden1 or @Orden2"
         //Sprint 1
-        tags = "@Orden1"
+        tags = "@Orden1 or @Orden2 or @Orden6"
         )
 public class FindOutUdeAPageRunner {
 }
