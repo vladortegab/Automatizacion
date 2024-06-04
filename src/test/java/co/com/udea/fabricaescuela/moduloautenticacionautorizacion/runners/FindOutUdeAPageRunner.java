@@ -19,10 +19,12 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber.xml"
         },
         //tags = "@Orden1 or @Orden2"
-        //Sprint 1
+        //**************Sprint 1**************//
         //tags = "@Orden1 or @Orden2 or @Orden6"
-        //Sprint 2
-        tags = "@Orden7"
+        //**************Sprint 2**************//
+        //tags = "@Orden1"
+        //tags = "@Orden7"
+        tags = "@Orden8"
         )
 public class FindOutUdeAPageRunner {
 }

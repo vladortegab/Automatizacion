@@ -44,8 +44,8 @@ public class boton_pestana_registroStepDefinition_sprint1 {
 
     }
 
-    @When("estoy en la pagina de inicio de sesion")
-    public void EstoyEnLaPaginaDeInicioDeSesion() {
+    @When("estoy en la pagina de inicio de sesion Orden3")
+    public void EstoyEnLaPaginaDeInicioDeSesionOrden3() {
         usuario.attemptsTo(Click.on(RegisterPage.LINK_INICIAR_SESION_HOMEPAGE));
 
     }

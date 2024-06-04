@@ -39,8 +39,8 @@ public class InicioSeccionStepDefinition_Sprint2 {
         logger.info("Feature: Iniciar Sesion con Credenciales Validas.");
     }
 
-    @Given("que estoy en la pagina de inicio de sesion")
-    public void queEstoyEnLaPaginaDeInicioDeSesion() {
+    @Given("que estoy en la pagina de inicio de sesion Orden1")
+    public void queEstoyEnLaPaginaDeInicioDeSesionOrden1() {
         usuario.attemptsTo(OpenThe.browser(new LoginPage()));
     }
 
