@@ -28,6 +28,10 @@ public class FillOutRegistrationForm implements Task {
         return new FillOutRegistrationForm(firstName, lastName, phone, identification, email, password);
     }
 
+   
+
+  
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

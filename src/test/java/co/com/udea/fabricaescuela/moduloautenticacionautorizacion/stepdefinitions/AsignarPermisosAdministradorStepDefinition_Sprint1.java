@@ -58,7 +58,7 @@ public class AsignarPermisosAdministradorStepDefinition_Sprint1 {
 
      @Then("asigno permisos de administrador a un usuario registrado")
     public void asignoPermisosDeAdministradorAUnUsuarioRegistrado() {
-        administrador.attemptsTo(AssignAdminPermissions.toUser("jhonDario@gmail.com"));
+        administrador.attemptsTo(AssignAdminPermissions.toUser("JOSE@hotmail.com"));
     }
 
     @And("el usuario seleccionado ahora debe tener permisos de administrador")

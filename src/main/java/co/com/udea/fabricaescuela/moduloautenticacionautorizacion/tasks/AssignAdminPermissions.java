@@ -62,7 +62,7 @@ public class AssignAdminPermissions implements Task {
                         Click.on(Target.the("Role dropdown")
                                 .locatedBy("(//li[@role='menuitem'])[2]")),
                         Click.on(Target.the("Administrator option")
-                                .locatedBy("//li[@role='menuitem' and text()='Administrador']")),
+                                .locatedBy("//li[@role='menuitem' and text()='ADMINISTRADOR']")),
                         Click.on(Target.the("Administrator confirme")
                                 .locatedBy(
                                         "//button[text()='Cancelar']/following-sibling::button")));

@@ -1,0 +1,13 @@
+#Author: QA Team
+#Language: en
+@Orden9
+
+Feature: Actualizacion de Datos Personales
+  Scenario: Acceso al modo de edición de perfil
+    Given Soy un usuario registrado
+    When Accedo a mi perfil en la aplicación web
+    Then DeberIa ver un boton para editar mi perfil
+    And  hacer clic en Perfil, se dirigira al usuario a la pestana de perfil
+    When Modifico mis datos personales: nombre, apellido, numero de telefono y contrasena
+    And Guardo los cambios
+    Then Deberian actualizarse mis datos personales en el sistema

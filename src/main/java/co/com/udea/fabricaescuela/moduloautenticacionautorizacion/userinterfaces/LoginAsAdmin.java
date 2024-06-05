@@ -9,6 +9,6 @@ public class LoginAsAdmin {
 
     public static final Target ASIGNO_PERMISO_ROL_ADMIN = Target.the("ASIGNO PERMISO ROL DE ADMINISTRADOR PERFIL")
             .locatedBy(
-                    "(//div[contains(@class,'MuiDialogActions-root MuiDialogActions-spacing')]//button)[2]");
+                    "//button[text()='Confirmar']");
 
 }

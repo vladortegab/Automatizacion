@@ -24,7 +24,8 @@ import org.junit.runner.RunWith;
         //**************Sprint 2**************//
         //tags = "@Orden1"
         //tags = "@Orden7"
-        tags = "@Orden8"
+        //tags = "@Orden8"
+        tags = "@Orden1 or @Orden2 or @Orden9"
         )
 public class FindOutUdeAPageRunner {
 }

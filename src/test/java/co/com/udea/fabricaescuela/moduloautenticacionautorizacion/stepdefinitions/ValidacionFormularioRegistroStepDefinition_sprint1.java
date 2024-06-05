@@ -47,7 +47,7 @@ public class ValidacionFormularioRegistroStepDefinition_sprint1 {
     public void seRegistrenLosDatosRequeridosParaElRegistroDelUsuario() {
         //Cambiar datos por otro correo y probar, pero primero borrar este y actualizandolo
         usuario.attemptsTo(
-            FillOutRegistrationForm.withRequiredData("Juan", "Perez", "1234567890", "123456790", "animatrix88@hotmail.com", "Password123*")
+            FillOutRegistrationForm.withRequiredData("Juan", "Perez", "1234567890", "123456791", "JOSE@hotmail.com", "Password123*")
         );
 
 

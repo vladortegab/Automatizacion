@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="3.385" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Opciones de Inicio de Sesion con Google y Facebook" name="Iniciar Sesion con Google" time="3.103">
+<testsuite name="Cucumber" time="6.145" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Iniciar Sesion con Credenciales Validas." name="Iniciar Sesion en la Aplicacion Web." time="4.163">
 <system-out><![CDATA[
-Given que estoy en la pagina de inicio de sesion Orden8.....................passed
-When hago clic en el boton de inicio de sesion con Google...................passed
-Then debo ser redirigido automaticamente al flujo de autenticacion de Google.passed
-And despues de completar el flujo de autenticacion en Google................passed
-Then deberia de redirigirme de vuelta a la pagina de inicio de sesion de manera automatica.passed
+Given que estoy en la pagina de inicio de sesion Orden1.....................passed
+When ingreso mi correo electronico y contrasena.............................passed
+When hago clic en el boton Iniciar Sesion...................................passed
+Then deberia ver un indicador de carga mientras se verifican mis credenciales.passed
+Then deberia ser redirigido a la pagina principal de la aplicacion..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Acceso a la Pestana de Perfil" name="Visualizar Datos Personales" time="1.612">
+<system-out><![CDATA[
+Given que el usuario esta autenticado en la plataforma Orden2...............passed
+When haga clic en el icono de perfil en la barra de navegacion..............passed
+Then se desplegara un menu con varias opciones, incluida la opcion de Perfil.passed
+And al hacer clic en Perfil, se dirigira al usuario a la pestana de perfil..passed
+And se cargaran los datos personales actuales del usuario Nombre, Apellidos, Telefono, Identificacion y Correo Electronico.passed
+And aparece visible el boton de Edicion.....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
